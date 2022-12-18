@@ -1,0 +1,33 @@
+html{
+font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Oxygen', arial;
+}
+*{
+margin: 0;
+box-sizing: border-box;
+padding: 0;
+}
+.top-header {
+text-align: center;
+}
+.top-header-logo{
+margin:.5em /* 8px*/;
+}
+.top-nav{
+background-color:#612674;
+text-align:center;
+}
+.top-nav ul{
+list-style: none;
+}
+.top-nav a{
+color: white;
+text-decoration: none;
+padding: 1em /* 1em = 16px*/;
+display: block;
+}
+.top-nav a:hover{
+background-color: #7c3792;
+}
